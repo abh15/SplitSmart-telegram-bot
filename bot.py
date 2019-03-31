@@ -29,7 +29,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-membernames=["ing", "abh_dan","sham",'lag']  #array to keep track of member usernames
+membernames=[]  #array to keep track of member usernames
 ledger = {}     #Main ledger for record
 
 # Define a few command handlers. These usually take the two arguments bot and
